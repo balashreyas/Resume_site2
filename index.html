@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- saved from url=(0090)file:///C:/Users/abala/Desktop/HTML,CSS%20and%20JavaScript/HTML/personal%20data/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>My Portfolio</title>
+<link rel="stylesheet" href="./index_files/style.css"></head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="file:///C:/Users/abala/Desktop/HTML,CSS%20and%20JavaScript/HTML/personal%20data/index.html#" class="active" "="">Home</a></li>
+            <li><a href="file:///C:/Users/abala/Desktop/HTML,CSS%20and%20JavaScript/HTML/personal%20data/index.html#">About</a></li>
+            <li><a href="file:///C:/Users/abala/Desktop/HTML,CSS%20and%20JavaScript/HTML/personal%20data/index.html#">Projects</a></li>
+            <li><a href="file:///C:/Users/abala/Desktop/HTML,CSS%20and%20JavaScript/HTML/personal%20data/contact.html">Contact</a></li> 
+        </ul>
+        
+    </header>
+    <center>
+    <table class="name" cellspacing="20">
+        <tbody><tr>
+            <td><h1>Ambati Bala Shreyas Reddy</h1>
+                <p class="college"><em>Student At<a href="http://www.ngit.ac.in/" class="college"> Neil Gogte Institute of Technology</a></em></p>
+                <p><strong>Department of CSE(AI&amp;ML)</strong></p>
+            </td>
+            <td><img src="./index_files/me-modified.png" alt="My Photo"></td>
+        </tr>
+    </tbody></table>
+    </center>
+    <h1 class="about" onclick="toggleAbout()">About Me:</h1>
+    <center>
+    <h2>PLEASE NOTE THIS IS A WORK IN PROGRESS SOME FEATURES MIGHT NOT WORK</h2>
+    </center>
+    <script>
+        function toggleAbout() {
+            const aboutSection = document.querySelector('.about');
+            aboutSection.classList.toggle('active');
+        }
+    </script>
+    
+
+</body></html>
